@@ -36,6 +36,4 @@ coverage/
 
 tests/
 .venv/
-.mineru/
-.github/
 mineru_output/
