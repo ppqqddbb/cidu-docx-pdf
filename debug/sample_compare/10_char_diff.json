@@ -1,0 +1,105 @@
+[
+  {
+    "id": "diff_001",
+    "type": "INSERT",
+    "text": "正常",
+    "old": {
+      "document_id": "old",
+      "block_ids": [],
+      "page_index": null,
+      "start_offset": null,
+      "end_offset": null,
+      "bbox": null
+    },
+    "new": {
+      "document_id": "new",
+      "block_ids": [
+        "new_b2",
+        "new_b3"
+      ],
+      "page_index": 0,
+      "start_offset": null,
+      "end_offset": null,
+      "bbox": null
+    },
+    "confidence": 1.0,
+    "metadata": {}
+  },
+  {
+    "id": "diff_002",
+    "type": "DELETE",
+    "text": "10",
+    "old": {
+      "document_id": "old",
+      "block_ids": [
+        "old_b2"
+      ],
+      "page_index": 0,
+      "start_offset": 10,
+      "end_offset": 12,
+      "bbox": null
+    },
+    "new": {
+      "document_id": "new",
+      "block_ids": [],
+      "page_index": null,
+      "start_offset": null,
+      "end_offset": null,
+      "bbox": null
+    },
+    "confidence": 1.0,
+    "metadata": {}
+  },
+  {
+    "id": "diff_003",
+    "type": "INSERT",
+    "text": "12",
+    "old": {
+      "document_id": "old",
+      "block_ids": [],
+      "page_index": null,
+      "start_offset": null,
+      "end_offset": null,
+      "bbox": null
+    },
+    "new": {
+      "document_id": "new",
+      "block_ids": [
+        "new_b2",
+        "new_b3"
+      ],
+      "page_index": 0,
+      "start_offset": null,
+      "end_offset": null,
+      "bbox": null
+    },
+    "confidence": 1.0,
+    "metadata": {}
+  },
+  {
+    "id": "diff_004",
+    "type": "INSERT",
+    "text": "设备应具备远程监控功能。",
+    "old": {
+      "document_id": "old",
+      "block_ids": [],
+      "page_index": null,
+      "start_offset": null,
+      "end_offset": null,
+      "bbox": null
+    },
+    "new": {
+      "document_id": "new",
+      "block_ids": [
+        "new_b2",
+        "new_b3"
+      ],
+      "page_index": 0,
+      "start_offset": null,
+      "end_offset": null,
+      "bbox": null
+    },
+    "confidence": 1.0,
+    "metadata": {}
+  }
+]

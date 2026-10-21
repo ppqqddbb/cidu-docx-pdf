@@ -1,0 +1,58 @@
+[
+  {
+    "operation": "MATCH",
+    "old_indices": [
+      0
+    ],
+    "new_indices": [
+      0
+    ],
+    "score": 1.0,
+    "alignment_type": "MATCH_1_1"
+  },
+  {
+    "operation": "MATCH",
+    "old_indices": [
+      1
+    ],
+    "new_indices": [
+      1
+    ],
+    "score": 1.0,
+    "alignment_type": "MATCH_1_1"
+  },
+  {
+    "operation": "MATCH",
+    "old_indices": [
+      2
+    ],
+    "new_indices": [
+      2,
+      3
+    ],
+    "score": 0.517999,
+    "alignment_type": "MATCH_1_2"
+  },
+  {
+    "operation": "MATCH",
+    "old_indices": [
+      3
+    ],
+    "new_indices": [
+      4
+    ],
+    "score": 1.0,
+    "alignment_type": "MATCH_1_1"
+  },
+  {
+    "operation": "MATCH",
+    "old_indices": [
+      4
+    ],
+    "new_indices": [
+      5
+    ],
+    "score": 1.0,
+    "alignment_type": "MATCH_1_1"
+  }
+]

@@ -1,0 +1,203 @@
+{
+  "comparison_id": "b2391d04-aa2a-4500-877b-f3d0d28d6d56",
+  "quality": {
+    "old": {
+      "total_blocks": 5,
+      "text_blocks": 5,
+      "empty_blocks": 0,
+      "total_chars": 53,
+      "avg_block_length": 10.6,
+      "short_block_ratio": 0.0,
+      "duplicate_block_ratio": 0.0,
+      "invalid_char_ratio": 0.0,
+      "ocr_block_ratio": 0.0,
+      "pages_without_text_ratio": 0.0,
+      "quality_score": 1.0,
+      "quality_warnings": []
+    },
+    "new": {
+      "total_blocks": 6,
+      "text_blocks": 6,
+      "empty_blocks": 0,
+      "total_chars": 67,
+      "avg_block_length": 11.166666666666666,
+      "short_block_ratio": 0.0,
+      "duplicate_block_ratio": 0.0,
+      "invalid_char_ratio": 0.0,
+      "ocr_block_ratio": 0.0,
+      "pages_without_text_ratio": 0.0,
+      "quality_score": 1.0,
+      "quality_warnings": []
+    },
+    "warnings": []
+  },
+  "summary": {
+    "insert_count": 3,
+    "delete_count": 1,
+    "equal_count": 4,
+    "modified_regions": 1
+  },
+  "alignments": [
+    {
+      "operation": "MATCH",
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "score": 1.0,
+      "alignment_type": "MATCH_1_1"
+    },
+    {
+      "operation": "MATCH",
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "score": 1.0,
+      "alignment_type": "MATCH_1_1"
+    },
+    {
+      "operation": "MATCH",
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        2,
+        3
+      ],
+      "score": 0.517999,
+      "alignment_type": "MATCH_1_2"
+    },
+    {
+      "operation": "MATCH",
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        4
+      ],
+      "score": 1.0,
+      "alignment_type": "MATCH_1_1"
+    },
+    {
+      "operation": "MATCH",
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        5
+      ],
+      "score": 1.0,
+      "alignment_type": "MATCH_1_1"
+    }
+  ],
+  "changes": [
+    {
+      "id": "diff_001",
+      "type": "INSERT",
+      "text": "正常",
+      "old": {
+        "document_id": "old",
+        "block_ids": [],
+        "page_index": null,
+        "start_offset": null,
+        "end_offset": null,
+        "bbox": null
+      },
+      "new": {
+        "document_id": "new",
+        "block_ids": [
+          "new_b2",
+          "new_b3"
+        ],
+        "page_index": 0,
+        "start_offset": null,
+        "end_offset": null,
+        "bbox": null
+      },
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "diff_002",
+      "type": "DELETE",
+      "text": "10",
+      "old": {
+        "document_id": "old",
+        "block_ids": [
+          "old_b2"
+        ],
+        "page_index": 0,
+        "start_offset": 10,
+        "end_offset": 12,
+        "bbox": null
+      },
+      "new": {
+        "document_id": "new",
+        "block_ids": [],
+        "page_index": null,
+        "start_offset": null,
+        "end_offset": null,
+        "bbox": null
+      },
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "diff_003",
+      "type": "INSERT",
+      "text": "12",
+      "old": {
+        "document_id": "old",
+        "block_ids": [],
+        "page_index": null,
+        "start_offset": null,
+        "end_offset": null,
+        "bbox": null
+      },
+      "new": {
+        "document_id": "new",
+        "block_ids": [
+          "new_b2",
+          "new_b3"
+        ],
+        "page_index": 0,
+        "start_offset": null,
+        "end_offset": null,
+        "bbox": null
+      },
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "diff_004",
+      "type": "INSERT",
+      "text": "设备应具备远程监控功能。",
+      "old": {
+        "document_id": "old",
+        "block_ids": [],
+        "page_index": null,
+        "start_offset": null,
+        "end_offset": null,
+        "bbox": null
+      },
+      "new": {
+        "document_id": "new",
+        "block_ids": [
+          "new_b2",
+          "new_b3"
+        ],
+        "page_index": 0,
+        "start_offset": null,
+        "end_offset": null,
+        "bbox": null
+      },
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ]
+}

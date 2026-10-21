@@ -1,0 +1,16 @@
+[
+  {
+    "old_index": 1,
+    "new_index": 1,
+    "score": 1.0,
+    "anchor_type": "exact",
+    "weight": 11
+  },
+  {
+    "old_index": 3,
+    "new_index": 4,
+    "score": 1.0,
+    "anchor_type": "exact",
+    "weight": 14
+  }
+]
